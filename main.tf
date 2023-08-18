@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 terraform {
   required_providers {
     aws = {
@@ -404,4 +403,4 @@ resource "aws_key_pair" "hashicat" {
   key_name   = local.private_key_filename
   public_key = tls_private_key.hashicat.public_key_openssh
 }
->>>>>>> 36d959d0759599127b9de5e34afcf90e8823030b
+
